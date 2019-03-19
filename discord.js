@@ -13,12 +13,14 @@ const answer = [
     'Evet',
     'Hazır',
     'Tamam'
-]
+];
 
 client.on('ready', () => {
 
   console.log(`Oduncu Sunucuya Giriş Yaptı!`);
 
+  //client.user.setGame('Age of Empires');
+  client.user.setPresence({ game: { name: 'Age of Empires', type: 0 } });
 });
 
 client.on('message', (msg) => {
