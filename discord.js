@@ -18,7 +18,7 @@ const answer = [
 client.on('ready', () => {
 
   console.log(`Oduncu Sunucuya Giriş Yaptı!`);
-  client.user.setPresence({ game: { name: 'Age of Empires II: Age of Kings', type: 0 } });
+  client.user.setPresence({ game: { name: 'Age of Empires II: The Age of Kings', type: 0 } });
 
 });
 
