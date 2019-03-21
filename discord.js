@@ -18,14 +18,11 @@ const answer = [
 client.on('ready', () => {
 
   console.log(`Oduncu Sunucuya Giriş Yaptı!`);
+  client.user.setPresence({ game: { name: 'Age of Empires II: Age of Kings', type: 0 } });
 
-  //client.user.setGame('Age of Empires');
-  client.user.setPresence({ game: { name: 'Age of Empires', type: 0 } });
 });
 
 client.on('message', (msg) => {
-
-    msg.content = msg.content.trim();
 
     if(msg.content === settings.prefix || msg.content.startsWith(settings.prefix + ' ')) {
 
