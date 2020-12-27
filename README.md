@@ -6,5 +6,6 @@ prefix: !oduncu
 
 !oduncu
 //a random output: Oduncu
+
 !oduncu
 //a random output: Yaparım
